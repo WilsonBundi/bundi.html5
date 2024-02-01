@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal page</title>
+    <link rel="stylesheet" href="bundi.css">
+    <script src="https://kit.fontawesome.com/72797b7273.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header"> 
+        <!-- <img src="imagees/image.jpg" alt="wil" class="m"> -->
+
+         <div class="container">
+            <nav>
+                <img src="BUNDI/images/backg.jpg"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#HOME" >HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#SERVICES">SERVICES</a></li>
+                    <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                    <li><a href="#CONTACTS">CONTACTS</a></li>
+                    <!-- <i class="fas fa-times " onclick="closemenu()"></i>  -->
+                    
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+                </ul>
+                <i class="fas fa-times " onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="p">web designer</p>
+                <h1 class="h">Hey, i'm <span>wilson</span><br>from Kenya </h1>
+            </div>
+            
+        </div>
+       
+    </div>
+
+    <!-- <div class="header-text">
+        <p>web designer</p>
+        <h1>Hey, i'm <span>wilson</span><br>from Kenya </h1>
+    </div> -->
+    <div id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpg" alt="me">
+                </div> 
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>WOW! This is me! Born Kenya, born meru, born athwana, born laciathuriu, in the village.From there ABCD was introduced to my ear and trained to shape them.
+                    I did my KCPE in the same village, From Laciathuriu primary school. That was in the year 2015 and 2016 when i did my masters!
+                    
+                </p>
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>DESIGNING WEB/APPS INTERFACE</li>
+                        <li><span>WEB DEVELOPMENT</span><br> WEB APPS DEVELOPMENT </li>
+                        <li><span>APPS DEVELOPMENT</span><br>BUILDING ANDROID/IOS APPS</li>
+    
+                    </ul>
+                    </div>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2021-current</span><br>currently in the university</li>
+                    <li><span>2020</span><br> computer trainer </li>
+                    <li><span>2017-2019</span><br>working at MBT town centre company</li>
+
+                </ul>
+                </div>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>2007-2016</span><br> laciathuriu primary school</li>
+                <li><span>2017-2020</span><br> student kanyakine high school </li>
+                <li><span>2021-current</span><br>student kirinyaga university</li>
+
+            </ul>
+            </div>
+            </div>
+    </div>
+            <!-- <div class="table-contents">
+                <ul>
+                    <li><span>UI/UX</span><br>DESIGNING WEB/APPS INTERFACE</li>
+                    <li><span>WEB DEVELOPMENT</span><br> WEB APPS DEVELOPMENT </li>
+                    <li><span>APPS DEVELOPMENT</span><br>BUILDING ANDROID/IOS APPS</li>
+
+                </ul>
+            </div> -->
+            </div>
+        </div>
+    </div>
+    <!--SERVICES -->
+    <div id="SERVICES">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>i design web using html, css and javascript.<br> </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-file-word"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>i do interface design for easy web coding.<br> </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                  <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Apps Design</h2>
+                    <p>i do apps  designing.<br> </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- portfolio -->
+    <div id="PORTFOLIO">
+        <div class="contaner">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="social.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Entertainment App.
+                        <br>the app connect you to the talented generation.Get it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="entert.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Download any song of your choice.Get it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="shopping.jpg" >
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>Get the best product, buy and alson advertise.
+                        <br>.Get it from the play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+   
+   
+   
+   <!-------- contacts---- -->
+   <div id="CONTACTS">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">contact me</h1>
+        <p> <i class="fas fa-paper-plane"></i>kabishwilsie@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>0714978525</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100085363191225"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/p/CrhowocIIHc/?igshid=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://telegram.org/privacy"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://www.linkedin.com/in/wilson-bundi-44068a273"><i class="fa-brands fa-linkedin"> </i></a>
+        </div>
+        <a href="imagees/cv.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet" onsubmit="sendEmail(); reset(); return false;" >
+                <input type="email" id="Email" placeholder="Your Email" required>
+                <input type="text" id="Name" placeholder="Your Name" required>
+                <input type="text" id="Phone Number" placeholder="Your Phone No" required>
+                <textarea id="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">send</button>
+            </form>
+            <span id="msg">Hey</span>
+
+        </div>
+    </div>
+    </div>
+    <div class="copyrght">
+        <p><marquee behavior="alternate">copyright @2023, by wilie kabish<i class="fas fa-heart"></i></marquee></p>  
+    </div>
+   </div>
+   
+   <script src=" https://smtpjs.com/v3/smtp.js
+   "></script>
+   <script>
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "kabishwilsie@gmail.com",
+        Password : "1234wils@!",
+        To : 'bundiwilson2020@gmal.com',
+        From : document.getElementById("email").value,
+        Subject : "me here",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+   </script>
+   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+
+            
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right= "0"
+        }
+            function closemenu(){
+            sidemenu.style.right= "-200px"
+            
+
+            }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSGp6fqOZC8i_QUQXLie4WYr13fpuz8TWIkOntKQTDw3Owt3mmVdOuGz7vm6N0KdjQYw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = 'Message sent successfully'
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
